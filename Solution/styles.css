@@ -1,0 +1,414 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', 'Open Sans', 'sans-serif';
+}
+
+section {
+  padding: 5rem 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 400;
+  font-weight: 1.6rem;
+  color: black;
+}
+
+h1, h2, p {
+  margin: 1.6rem auto;
+}
+
+h1 {
+  /* font-family: 'Poppins' */
+  font-size: 4.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #2C3333;
+}
+
+h2 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  text-align: center;
+  color: #2C3333;
+}
+
+p {
+  color: #7F8487;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 1.5rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-item: center;
+  margin: auto;
+}
+
+/* header */
+.row.head {
+  align-items: center;
+  margin: 5rem auto 10rem;
+  width: 90%;
+}
+
+.try-it {
+  background-color: white;
+  border-color: hsl(322, 100%, 66%);
+  border-radius: 7rem;
+  border-width: 2px;
+  font-family: 'Poppins';
+  font-size: 1.5rem;
+  padding: 0.75rem 3rem;
+  cursor: pointer;
+}
+
+.top-logo {
+  width: 100%;
+  height: auto;
+}
+
+.row.intro {
+  width: 40%;
+  text-align: center;
+}
+
+.get-started {
+  background-color: hsl(321, 100%, 78%);
+  border: none;
+  border-radius: 10rem;
+  box-shadow: -6px 8px 10px 5px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-family: 'Poppins';
+  font-size: 2rem;
+  padding: 1.5rem 6rem;
+  margin: 2rem auto 5rem;
+  cursor: pointer;
+}
+
+/* Section 2 - KPIs */
+.kpi .row {
+  padding: 0 2rem;
+  justify-content: space-around;
+}
+
+.kpi-card {
+  padding: 2rem;
+  justify-content: space-around;
+}
+
+.kpi-icons {
+  width: 3rem;
+}
+
+.metrics {
+  font-size: 6rem;
+  text-align: center;
+}
+
+.kpi-title {
+  text-align: center;
+}
+
+/* Section 3 - Grow together */
+.row .cards>* {
+  margin: 0 2rem;
+}
+
+.text-card {
+  text-align: left;
+  width: 47.5%;
+  padding-top: 12rem;
+  /*display: flex;
+  flex-wrap: wrap;
+  align-items: center; */
+}
+
+.text-card>* {
+  text-align: left;
+}
+
+.people-card {
+  width: 47.5%;
+}
+
+/* Sections background */
+.people-1, .people-3 {
+  background-color: hsl(207, 100%, 98%);
+}
+
+/* Second mid curvy blue background top */
+.row.mid-1-top, .row.mid-1-bottom, .row.mid-2-top, .row.mid-2-bottom, .row.footer-top {
+  width: 100%;
+}
+
+.row.mid-1-top img {
+  content: url(images/bg-section-top-desktop-1.svg);
+}
+
+.row.mid-1-bottom img {
+  content: url(images/bg-section-bottom-desktop-1.svg);
+}
+
+.row.mid-2-top img {
+  content: url(images/bg-section-top-desktop-2.svg);
+}
+
+.row.mid-2-bottom img {
+  content: url(images/bg-section-bottom-desktop-2.svg);
+}
+
+/* curvy footer top */
+.row.footer-top img {
+  content: url(images/bg-footer-top-desktop.svg);
+}
+
+/* footer */
+footer {
+  background-color: hsl(192, 100%, 9%);
+}
+
+footer .row.major {
+  padding-top: 10rem;
+}
+
+footer p {
+  color: whitesmoke;
+  line-height: 1.75;
+}
+
+.row .contact-info {
+  justify-content: flex-start;
+  margin: 1rem 0;
+  align-items: center;
+}
+
+.bottom-logo {
+  width: 50%;
+  height: auto;
+  fill: white;
+}
+
+.left-footer-msg {
+  width: 70%;
+  margin: 2rem 0;
+}
+
+.contact-icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 2rem;
+}
+
+.contact-detail {
+  margin: 1rem 0;
+}
+
+.contact-logo {
+  fill: red;
+}
+
+.social-icons {
+  margin: 5rem 0;
+}
+
+.socials {
+  fill: white;
+}
+
+.socials:hover {
+  fill: hsl(171, 66%, 44%);
+  transition: ease-in 0.2s all;
+}
+
+.socials-logo {
+  margin: 5rem 5rem 5rem 0;
+  transform: scale(1.25);
+}
+
+.subscribe {
+  margin-left: 5rem;
+}
+
+.subscribe h2 {
+  color: whitesmoke;
+  margin: 0;
+  text-align: left;
+}
+
+.row.form {
+  margin: 3rem 0;
+}
+
+input {
+  font-size: 2rem;
+}
+
+input[type=email] {
+  padding: 12px 20px;
+  margin: 1.2rem 4rem 1.2rem 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+input[type=submit] {
+  background-color: hsl(321, 100%, 78%);
+  color: #fff;
+  padding: 12px 20px;
+  margin: 1.2rem 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Media queries for mobile */
+@media (max-width:1028px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+
+  p {
+    font-size: 3rem;
+  }
+
+  .row.intro {
+    width: 80%;
+  }
+
+  /*
+  .row p {
+    width: 80%;
+  }
+  */
+  .row.head {
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: ; */
+    width: 90%;
+  }
+
+  .get-started {
+    font-size: 2.5rem;
+    padding: 1.5rem 8rem;
+    margin: 4rem auto 7rem;
+  }
+
+  /* KPI Metrics */
+  .metrics {
+    font-size: 12rem;
+  }
+
+  .kpi-icons {
+    width: 5rem;
+  }
+
+  /* people sections */
+  .text-card {
+    /* text-align: center; */
+    width: 100%;
+  }
+
+  .people-card {
+    width: 100%;
+  }
+
+  .text-card h2, .text-card p {
+    text-align: center;
+  }
+
+  /* footer */
+  .left-footer-msg {
+    width: 100%;
+  }
+
+  .row .contact-info {
+    flex-direction: row;
+  }
+
+  .contact-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .socials-logo {
+    transform: scale(1.5);
+  }
+
+  .subscribe {
+    margin-left: 0;
+  }
+
+  .row.form {
+    width: 100%;
+  }
+
+  input[type=email] {
+    width: 100%;
+    margin: 1.2rem 0;
+  }
+
+  input {
+    font-size: 3rem;
+    width: 50%;
+  }
+
+  input[type=email], input[type=submit] {
+    padding: 15px 20px;
+  }
+
+  input[type=submit] {
+    display: flex;
+    align-self: end;
+  }
+
+  /* background curves */
+  .row.mid-1-top img {
+    content: url(images/bg-section-top-mobile-1.svg);
+  }
+
+  .row.mid-1-bottom img {
+    content: url(images/bg-section-bottom-mobile-1.svg);
+  }
+
+  .row.mid-2-top img {
+    content: url(images/bg-section-top-mobile-2.svg);
+  }
+
+  .row.mid-2-bottom img {
+    content: url(images/bg-section-bottom-mobile-2.svg);
+  }
+
+  /* curvy footer top */
+  .row.footer-top img {
+    content: url(images/bg-footer-top-mobile.svg);
+  }
+
+  /* section reordering */
+  .row.cards .text-card, .contact {
+    order: 2;
+  }
+  .contact{
+    margin-top: 10rem;
+  }
+}
